@@ -3,10 +3,13 @@
 ## Description
 This project is a polished Android Settings screen built with Jetpack Compose. It demonstrates Row/Column layout mastery, extensive use of Compose Modifiers, and a variety of Material 3 components.
 
-## Requirements Met
-- **Layout Mastery**: Utilizes a main `Column` container with properly nested `Row` components for each setting item.
-- **Modifiers**: Demonstrates the use of `padding`, `fillMaxWidth`, `weight`, `heightIn`/`sizeIn`, `align`, `border`, `clip`, `background`, and `clickable` to prevent truncation and align controls perfectly.
-- **Material 3 Components (6+)**: Incorporates `TopAppBar`, `Card`, `Switch`, `Slider`, `Checkbox`, `Button`, `OutlinedButton`, `AssistChip`, `HorizontalDivider`, and `Snackbar`.
+## Key Features
+
+* **Structured Layout Mastery**: Utilizes a main `Column` container with precisely nested `Row` components to organize individual setting items with professional alignment.
+* **Advanced Modifier Integration**: Demonstrates heavy use of `padding`, `fillMaxWidth`, and `Modifier.weight()` to ensure UI controls like Switches and Sliders align perfectly without truncation.
+* **Interactive M3 Controls**: Features a wide array of Material 3 input components including `Switch` for toggles, `Slider` for range adjustments, and `Checkbox` for multi-selection.
+* **Responsive Visual Styling**: Applies `clip`, `border`, and `background` modifiers to `Card` containers to provide a structured and modern look for different settings categories.
+* **Comprehensive M3 Suite**: Incorporates 6+ Material 3 components such as `CenterAlignedTopAppBar`, `AssistChip`, `HorizontalDivider`, and `Button` to ensure platform consistency.
 
 ## Screenshots
 ![Settings Screen](screenshot1.png)
